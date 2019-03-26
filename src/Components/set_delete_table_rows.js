@@ -1,4 +1,4 @@
-// filename: set_delete_table_rows.js (using the Set() method).
+// filename: set_delete-table-rows.js (using the Set() method).
 // this file must be named index.js
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
