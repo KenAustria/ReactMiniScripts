@@ -3,7 +3,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-class App extends React.Component {
+class MyApp extends React.Component {
   state = {
 		aBoolean: true
 	};
@@ -25,4 +25,4 @@ class App extends React.Component {
     );
   }
 }
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<MyApp />, document.getElementById("root"));

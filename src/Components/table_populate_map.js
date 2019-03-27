@@ -3,7 +3,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
-class App extends Component {
+class MyApp extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -66,4 +66,4 @@ class TableRow extends Component {
     );
   }
 }
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<MyApp />, document.getElementById("root"));
