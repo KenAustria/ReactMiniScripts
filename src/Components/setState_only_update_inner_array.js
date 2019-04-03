@@ -1,4 +1,4 @@
-// filename: setState-only-update-inner-array.js
+// filename: setState_only_update_inner_array.js
 // this file must be named index.js
 import React, { Component } from "react";
 import ReactDOM from "react-dom";

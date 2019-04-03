@@ -1,4 +1,4 @@
-// filename: setState-async-tester.js
+// filename: setState_async_tester.js
 // to view, change this file's name to index.js
 import React, { Component } from "react";
 import ReactDOM from "react-dom";

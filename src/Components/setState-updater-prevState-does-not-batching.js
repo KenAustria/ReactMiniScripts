@@ -1,11 +1,12 @@
-// filename: setState-Updater-prevState-Does-Not-Batching.js
+// filename: setState_updater_prevState_does_not_batch.js
 // to view, change this file's name to index.js
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
 class MyApp extends Component {
   state = { myNumber: 0 };
-  myContainerStyle = {
+
+	myContainerStyle = {
     maxWidth: "360px",
     margin: "10px auto",
     padding: "6px 0",
@@ -14,10 +15,12 @@ class MyApp extends Component {
     border: "1px solid #000",
     fontSize: "16px",
     fontFamily: "Helvetica"
-  };
+	};
+
   componentDidMount() {
     this.myMethod();
-  }
+	}
+
   myMethod = () => {
     this.setState((prevState, props) => {
       return { myNumber: prevState.myNumber + 1 };
@@ -31,7 +34,8 @@ class MyApp extends Component {
     this.setState((prevState, props) => {
       return { myNumber: prevState.myNumber + 1 };
     });
-  };
+	};
+
   render() {
     return (
       <div style={this.myContainerStyle}>

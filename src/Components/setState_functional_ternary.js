@@ -1,4 +1,4 @@
-// filename: setState-functional-ternary.js
+// filename: setState_functional_ternary.js
 // this file must be named index.js
 import React, { Component } from "react";
 import ReactDOM from "react-dom";

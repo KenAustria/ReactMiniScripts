@@ -1,4 +1,4 @@
-// filename: setState-Updater-Function-Simple.js
+// filename: setState_updater_function_simple.js
 // this file must be named index.js
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
