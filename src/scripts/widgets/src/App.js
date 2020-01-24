@@ -2,6 +2,15 @@ import React from 'react';
 import './App.css';
 import ClockWidget from './components/clockWidget';
 import TabsWidget from './components/tabsWidget';
+import AutocompleteWidget from './components/autocompleteWidget';
+
+const names = [
+	"Homer",
+	"Marge",
+	"Bart",
+	"Lisa",
+	"Maggie"
+]
 
 const panes = [
 	{title: "one", content: "hey"},
@@ -13,9 +22,10 @@ function App() {
   return (
     <div className="App">
 			<ClockWidget />
-			<div className="interactive">
-				<TabsWidget panes={panes} />
-			</div>
+			<TabsWidget panes={panes} />
+			<br />
+			<br />
+			<AutocompleteWidget names={names} />
     </div>
   );
 }
