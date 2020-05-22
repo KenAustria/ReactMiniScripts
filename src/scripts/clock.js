@@ -59,13 +59,7 @@ class Clock extends Component {
 
 	componentDidMount() {
 		setInterval(this.updateClockHandsToCurrentTimeHandler, 1000);
-		this.updateClockHandsToCurrentTimeHandler();
   }
-
-	// helper method to updateClockHandsToCurrentTimeHandler
-	setRotationHandler = (element, degrees) => {
-		element.style.transform = `rotate(${degrees+90}deg)`
-	}
 
 	updateClockHandsToCurrentTimeHandler = () => {
 		// get the current time
