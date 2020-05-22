@@ -61,7 +61,7 @@ const InfiniteScroll = () => {
 		if (node) observer.current.observe(node) // if we have an actual last el result, update the current 
 	}, [loading, hasMore]) // list of dependencies to be returned
 
-	const onInputChange = event => {
+	const onInputChange = (event) => {
 		setQuery(event.target.value)
 		setPageNumber(1) // results to start at first page
 	}
