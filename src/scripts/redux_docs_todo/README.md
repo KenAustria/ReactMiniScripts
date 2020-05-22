@@ -1,1 +1,0 @@
-Todo app from the official Redux documentation.

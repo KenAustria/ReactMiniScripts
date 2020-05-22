@@ -57,9 +57,3 @@ const carStyles = {
 }
 
 ReactDOM.render(<MyApp />, document.getElementById('root'));
-
-// App component
-// create car state: type, model
-// define cars variable to render Cars component if state exists
-// define Cars component to map through cars state and render Car component
-// define Car component

@@ -21,7 +21,7 @@ class MyApp extends Component {
 		console.log('2 [App.js] getDerivedStateFromProps', props);
 		return state;
 	}
-	
+
 	componentDidMount() {
 		console.log('6 [App] componentDidMount');
 	}

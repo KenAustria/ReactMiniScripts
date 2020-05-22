@@ -1,1 +1,0 @@
-React-Redux application using Pixabay API to render images.

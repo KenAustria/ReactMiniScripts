@@ -1,1 +1,0 @@
-React Widgets Assignment from App Academy

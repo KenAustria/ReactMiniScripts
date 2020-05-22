@@ -1,1 +1,0 @@
-Passing Props Assignment from React: The Complete Guide by Maximilian Schwarzmüller
